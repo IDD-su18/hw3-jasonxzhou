@@ -1,10 +1,11 @@
-//distance sensor => note selection
-//pressure sensor => note velocity 
-//joystick axis 1 => pitch bend
-//joystick axis 2 => wavetable position (mod wheel mapped)
-//potentiometer => cutoff (midi learn)
+//distance sensor => note selection (value range: 0mm to 500mm, i2c connection)
+//pressure sensor => note velocity (value range: 1023 resting, 80 hard push, 700 soft push)
+//joystick axis 1 => pitch bend (value range: 1 to 1023)
+//joystick axis 2 => wavetable position (mod wheel mapped; value range: 1 to 1023)
+//potentiometer => cutoff (midi learn; value range: 1 to 1023)
 
 void setup() {
+  //Setting baud rate
   Serial.begin(31250);
 }
 
@@ -24,7 +25,8 @@ void sendMIDI(int firstByte, int secondByte, int thirdByte) {
     //pitch bend
     //test
     noteOn(0xE0, 0x00, 50);
-
+ \\
+  
     //mod wheel
     noteOn(0xB0, 0x01, i);
     

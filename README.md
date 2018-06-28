@@ -17,3 +17,9 @@ Joystick axis 1 => master pitch bend
 Joystick axis 2 => osc-1 wavetable position (mapped using mod wheel)  
 Potentiometer => filter cutoff (mapped using MIDI-learn)  
   
+##Documentation: Sensor Value Ranges
+2-axis joystick: [1, 1023]  
+Distance sensor: [0, 500]  
+Touch/Pressure Sensor: [700, 80]  
+10K Potentiometer: [1, 1023]  
+ 
