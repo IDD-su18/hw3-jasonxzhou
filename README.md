@@ -1,6 +1,6 @@
 # hw3-jasonxzhou
-Theo Fedronic & Jason Zhou
-IDD Summer 2018
+Theo Fedronic & Jason Zhou  
+IDD Summer 2018  
 
 ## Documentation: Signal Routing Chain  
 For this project, we are aiming to do the following signal routing:  
@@ -12,7 +12,7 @@ Note: The active Serial => Midi bridge must be disabled before uploading a progr
 Serum by XferRecords is the soft synth that we will be controlling with our device. It's a highly versatile, 2-oscillator wavetable synthesizer.
 The control scheme is as follows:  
 Distance sensor => note selection  
-Pressure sensor => note velocity & activation   
+Pressure sensor => note velocity & activation     
 Joystick axis 1 => master pitch bend  
 Joystick axis 2 => osc-1 wavetable position (mapped using mod wheel)  
 Potentiometer => filter cutoff (mapped using MIDI-learn)  
