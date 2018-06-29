@@ -1,3 +1,6 @@
+# Python script to parse the number sent to 192.168.1.1 by the Feather into four MIDI messages (using some bit twiddling)
+# Note: this script will continously poll 192.168.1.1 
+
 import urllib2
 import serial
 from bs4 import BeautifulSoup
