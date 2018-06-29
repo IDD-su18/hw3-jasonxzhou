@@ -17,13 +17,11 @@ void setup() {
 }
 
 //Polls all sensors, sends 4 MIDI signals as 1 integer, converted to string
-String getMIDI() {
-  if(!counter){
-    counter++;
-    return String(0x905A45);
-  } else {
-    return String(0x905A00); 
-  }
+void getMIDI(int msgs[4]) {
+  msgs[0] = 0x905A45;
+  msgs[1] = 0x905A00;
+  msgs[2] = 0x905A45;
+  msgs[3] = 0x905A00;
 }
 
 void loop() {
@@ -61,7 +59,13 @@ void loop() {
             client.println("Content-type:text/html");
             client.println();
             
-            client.print(getMIDI()); //polling analog sensors
+            int msgs[4] = {0, 0, 0, 0};
+            getMIDI(msgs);
+            for (int i = 0; i < 4; i++) {
+              client.print(0);
+              client.print(msgs[i]);
+            }
+             //polling analog sensors
             
             client.println();
             break;

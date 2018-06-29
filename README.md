@@ -5,6 +5,13 @@ IDD Summer 2018
 ## Documentation: Signal Routing Chain  
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/routing-1.jpg)
 
+## Documentation: Set-up  
+Upload and launch server.ino onto the feather.  
+Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
+Launch loopMIDI, Ableton, and Serum.  
+Connect laptop to wifi server "idd". 
+Run python script parser.py to begin.  
+
 ## Documentation: Serum Synthesizer
 Serum by XferRecords is the soft synth that we will be controlling with our device. It's a highly versatile, 2-oscillator wavetable synthesizer.
 The control scheme is as follows:  
