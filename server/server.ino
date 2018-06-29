@@ -24,6 +24,16 @@ void getMIDI(int msgs[4]) {
   msgs[3] = 0x905A00;
 }
 
+//returns number of digits in a number's base10 representation
+int digitCount(int countNumber) {
+  int counter = 0;
+  while (countNumber > 10) {
+    countNumber = floor(countNumber/10);
+    counter++;
+  }
+  return counter + 1;
+}
+
 void loop() {
   if (status != WiFi.status()) {
     status = WiFi.status();
@@ -62,7 +72,16 @@ void loop() {
             int msgs[4] = {0, 0, 0, 0};
             getMIDI(msgs);
             for (int i = 0; i < 4; i++) {
-              client.print(0);
+              
+              //have to print the appropriate number of zeroes in front of each message
+              //according to the value of the message; the "largest" possible MIDI msg
+              //is 0xFFFFFF, which takes up 8 digits, so print zeroes in front of each
+              //number to reach 8.
+              int digitCountSize = digitCount(msgs[i]);
+              for(int i = 0; i < (8 - digitCountSize); i++) {
+                client.print(0);
+              }
+
               client.print(msgs[i]);
             }
              //polling analog sensors
