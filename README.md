@@ -20,7 +20,7 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/zeropad.png)
 
 ### C. Circuit Overview
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/schematic.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/circuit.png)
 
 ## II. Physical & Mechanical Implementation
 
