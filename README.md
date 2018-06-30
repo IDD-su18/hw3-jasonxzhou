@@ -5,7 +5,7 @@ IDD Summer 2018
 
 ## Electronic & Software Design	
 
-## Physics & Mechanical Design
+## Physical & Mechanical Design
 
 ##
 
