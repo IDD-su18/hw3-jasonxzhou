@@ -25,6 +25,7 @@ void getMIDI(int msgs[4]) {
 }
 
 //returns number of digits in a number's base10 representation
+//used for 0 padding MIDI signals
 int digitCount(int countNumber) {
   int counter = 0;
   while (countNumber > 10) {
