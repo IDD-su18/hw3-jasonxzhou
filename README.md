@@ -1,6 +1,6 @@
 # hw3-jasonxzhou
-Physical/Mechanical Design: Theo Fedronic
-Electronic/Software Design: Jason Zhou  
+Physical/Mechanical Design: Theo Fedronic  
+Electronic/Software Design: Jason Zhou   
 IDD Summer 2018  
 
 ## Electronic & Software Design	
@@ -16,7 +16,7 @@ IDD Summer 2018
 Upload and launch server.ino onto the feather.  
 Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
 Launch loopMIDI, Ableton, and Serum.  
-Connect laptop to wifi server "idd". 
+Connect laptop to wifi server "idd".      
 Run python script parser.py to begin.  
 
 ### Documentation: Serum Synthesizer
