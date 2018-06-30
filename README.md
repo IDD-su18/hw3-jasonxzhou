@@ -8,7 +8,7 @@ IDD Summer 2018
 ### A. Custom Signal Routing Chain Overview
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/routing-1.jpg)
 
-First, the Adafruit Feather sets up its own WiFi web server. Whenever a client request is sent to the web server, the Feather polls all analog sensor values, and with some manipulation, converts the analog sensor values into four separate MIDI signals; the four signals are encoded into a single 96-bit number and sent to the web server as a response to the client request. This portion of the software is contained in "server.ino". 
+First, the Adafruit Feather sets up its own WiFi web server. Whenever a client request is sent to the web server, the Feather polls all analog sensor values, and with some manipulation, converts the analog sensor values into four separate MIDI signals (essentially a linear conversion from a known range of input values into a known acceptable range of output values); the four signals are encoded into a single 96-bit number and sent to the web server as a response to the client request. This portion of the software is contained in "server.ino". 
 
 The client (likely a laptop) will be running the client-side software, contained in "parser.py". The client must have 2 virtual COM/Serial ports open (using Eltima), and 1 virtual MIDI port open (using loopMIDI). Then, using urllib2 and BeautifulSoup, the python script will continously poll the Feather server at a rate of approximately 10Hz, and will continously scrap the 96-bit number. With more manipulation, the 96-bit number is decoded back into the 4 original distinct MIDI signals. Using pySerial, the 4 MIDI signals are written into one of the two virtual serial ports, and the data is routed out through the other virtual serial port into the program Hairless MIDI <-> Serial Bridge. From Hairless, the serial data is sent through the virtual MIDI port into our digital-audio workstation Ableton, which is hosting the synthesizer Serum. Upon receiving the MIDI signals, Serum then generates the desired audio output. The above diagram illustrates the entire signal routing process.
 
@@ -20,8 +20,9 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/zeropad.png)
 
 ### C. Circuit Overview
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/schematic.png)
 
-## II. Physical & Mechanical Design
+## II. Physical & Mechanical Implementation
 
 ## III. Misc. Documentation
 
