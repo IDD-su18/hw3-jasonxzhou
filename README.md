@@ -4,7 +4,6 @@ Electronic & Software Design: Jason Zhou
 IDD Summer 2018  
 
 ## I. Electronic & Software Implementation	
-*All code may be found in the "server" folder. 
 
 ### A. Custom Signal Routing Chain Overview
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/routing-1.jpg)
@@ -22,6 +21,8 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 
 ### C. Circuit Overview
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/circuit.png)
+
+The microcontroller used is the Adafruit Feather M0. The sensors used are the Adafruit VL53L0X distance sensor, the Adafruit 2-axis analog joystick, a 10K potentiometer, and a force-resistive sensor. The distance sensor uses an I2C connection to the SCL/SDA pins, while all other sensors use the generic analog input pins on the Feather.
 
 ## II. Physical & Mechanical Implementation
 
