@@ -2,6 +2,7 @@
 Physical & Mechanical Design: Theo Fedronic  
 Electronic & Software Design: Jason Zhou   
 IDD Summer 2018  
+Demo Video: https://youtu.be/ytvsIRv0k3Y
 
 ## I. Electronic & Software Implementation	
 
