@@ -26,7 +26,7 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 The microcontroller used is the Adafruit Feather M0. The sensors used are the Adafruit VL53L0X distance sensor, the Adafruit 2-axis analog joystick, a 10K potentiometer, and a force-resistive sensor. The distance sensor uses an I2C connection to the SCL/SDA pins, while all other sensors use the generic analog input pins on the Feather.
 
 ## II. Physical & Mechanical Implementation
-This section has been submitted by Theo through bcourses
+This section, including brainstorm/prototype pictures, has been submitted by Theo through bcourses
 
 ## III. Misc. Documentation
 
