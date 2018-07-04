@@ -37,12 +37,15 @@ Encasing Design Objectives:
 - Easy to assemble / disassemble
 - Good looking
 In order to meet these objectives, the focus was on using screws and snap-fits for securing all electronics, and all components together.  
+Below are some pictures from the brainstorming, prototyping, and fabrication process.  
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image001.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image008.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image003.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image015.png)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image017.png)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image019.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image021.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image023.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image033.jpg)
 
 
