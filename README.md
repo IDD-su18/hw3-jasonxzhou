@@ -1,9 +1,8 @@
 # hw3-jasonxzhou
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
-Physical & Mechanical Design: Theo Fedronic  
-Electronic & Software Design: Jason Zhou   
-IDD Summer 2018  
-Demo Video: https://youtu.be/ytvsIRv0k3Y
+**Physical & Mechanical Design:** Theo Fedronic  
+**Electronic & Software Design:** Jason Zhou   
+**Demo Video**: https://youtu.be/ytvsIRv0k3Y
 
 ## I. Electronic & Software Implementation	
 ### A. Circuit Overview
@@ -38,6 +37,11 @@ Objectives:
 - Good looking
 In order to meet these objectives, the focus was on using screws and snap-fits for securing all
 electronics, and all components together.
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag001.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag008.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag015.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag017.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag019.png)
 
 ## III. Misc. Documentation
 
