@@ -1,9 +1,9 @@
 # hw3-jasonxzhou
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
 Physical & Mechanical Design: Theo Fedronic  
 Electronic & Software Design: Jason Zhou   
 IDD Summer 2018  
 Demo Video: https://youtu.be/ytvsIRv0k3Y
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
 
 ## I. Electronic & Software Implementation	
 ### A. Circuit Overview
