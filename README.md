@@ -2,6 +2,7 @@
 Physical & Mechanical Design: Theo Fedronic  
 Electronic & Software Design: Jason Zhou   
 IDD Summer 2018  
+Demo Video: https://youtu.be/ytvsIRv0k3Y
 
 ## I. Electronic & Software Implementation	
 
@@ -15,21 +16,27 @@ The client (likely a laptop) will be running the client-side software, contained
 ### B. Custom Batch MIDI Protocol
 Because of the number of parameters we are controlling, and to reduce latency and increase responsiveness, we decided to send a batch of 4 MIDI signals at each poll, which required us to develop a simple encoding method.  
 Each MIDI signal consists of three bytes, such as 0x9A0540. This means that all MIDI signals are between the values 0 (0x000000) and 16777215 (0xFFFFFF). To send 4 MIDI signals at once, we could simply append each signal onto the end of the previous one (i.e. to send the four signals 0x9A0540, 0x9A0500, 0xE00001, 0xB00500, we could simply send 0x9A05409A0500E00001B00500). As a side note, this value is much too large to be sent as one long or one int, so internally this is done by passing a 4 element integer array around.  
-However, this "appending" method breaks when there are leading zeroes in any of the four signals, as leading zeroes are omitted when using the client sending function, meaning the four MIDI signals are no longer guaranteed to be aligned to every 6 bytes (and there's no way to know which is the case during decoding). Thus, (and for ease of computation the next steps are done in decimal instead of hex), we physically prepend all MIDI signals such that they are of the same length as the largest possible MIDI signal, 0xFFFFFF; in other words, all MIDI signals are zero-padded to 8 digits (by printing the appropriate number of 0's). After zero-padding, the "appending" method is guaranteed to produce aligned signals, which also makes the decoding process in the python script (parser.py) quite easy. The table below illustrates the aforementioned examples: 
+However, this "appending" method breaks when there are leading zeroes in any of the four signals, as leading zeroes are omitted when using the client sending function, meaning the four MIDI signals are no longer guaranteed to be aligned to every 6 bytes (and there's no way to know whether alignment has been preserved or not during decoding). Thus, (and for ease of computation the next steps are done in decimal instead of hex), we manually prepend all MIDI signals such that they are of the same length as the largest possible MIDI signal, 0xFFFFFF; in other words, all MIDI signals are zero-padded to 8 digits (by printing the appropriate number of 0's). After zero-padding, the "appending" method is guaranteed to produce aligned signals, which also makes the decoding process in the python script (parser.py) quite easy. The table below illustrates the aforementioned examples: 
 
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/zeropad.png)
 
 ### C. Circuit Overview
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/circuit.png)
 
+The microcontroller used is the Adafruit Feather M0. The sensors used are the Adafruit VL53L0X distance sensor, the Adafruit 2-axis analog joystick, a 10K potentiometer, and a force-resistive sensor. The distance sensor uses an I2C connection to the SCL/SDA pins, while all other sensors use the generic analog input pins on the Feather.
+
 ## II. Physical & Mechanical Implementation
+**This section, including brainstorm/prototype pictures, has been submitted by Theo through bcourses**
 
 ## III. Misc. Documentation
 
-### A. Setting up & Launching 
-Upload and launch server.ino onto the feather.  
+### A. Installation & Set-up Instructions
+Install: Ableton (or DAW of your choice), Serum (or synth of your choice), Hairless <-> MIDI bridge, Eltima, and loopMIDI.  
+Open your DAW; select your synth inside the DAW.  
+Launch Eltima, add two virtual serial ports (COM1, COM2). 
 Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
-Launch loopMIDI, Ableton, and Serum.  
+Launch loopMIDI, set loopMIDI input to be Hairless output.   
+Upload and launch server.ino onto the Adafruit Feather.  
 Connect laptop to wifi server "idd".      
 Run python script parser.py to begin.  
 
