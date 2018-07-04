@@ -3,6 +3,7 @@ Physical & Mechanical Design: Theo Fedronic
 Electronic & Software Design: Jason Zhou   
 IDD Summer 2018  
 Demo Video: https://youtu.be/ytvsIRv0k3Y
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
 
 ## I. Electronic & Software Implementation	
 ### A. Circuit Overview
@@ -24,10 +25,19 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/zeropad.png)
 
-
-
 ## II. Physical & Mechanical Implementation
-**This section, including brainstorm/prototype pictures, has been submitted by Theo through bcourses**
+Materials:
+- 7 3D printed parts
+- 48 cumulative hours of printing
+- 16 self-tapping screws
+
+Objectives:
+- Wearable / portable functionality
+- Ergonomic & Small
+- Easy to assemble / disassemble
+- Good looking
+In order to meet these objectives, the focus was on using screws and snap-fits for securing all
+electronics, and all components together.
 
 ## III. Misc. Documentation
 
