@@ -35,9 +35,11 @@ Encasing Design Objectives:
 - Wearable / portable functionality
 - Ergonomic & Small
 - Easy to assemble / disassemble
-- Good looking
+- Good looking  
 In order to meet these objectives, the focus was on using screws and snap-fits for securing all electronics, and all components together.  
 Below are some pictures from the brainstorming, prototyping, and fabrication process.  
+  
+   
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image001.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image008.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image003.jpg)
@@ -54,9 +56,9 @@ Below are some pictures from the brainstorming, prototyping, and fabrication pro
 ### A. Installation & Set-up Instructions
 Install: Ableton (or DAW of your choice), Serum (or synth of your choice), Hairless <-> MIDI bridge, Eltima, and loopMIDI.  
 Open your DAW; select your synth inside the DAW.  
-Launch Eltima, add two virtual serial ports (COM1, COM2). 
+Launch Eltima, add two virtual serial ports (COM1, COM2).  
 Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
-Launch loopMIDI, set loopMIDI input to be Hairless output.   
+Launch loopMIDI, set loopMIDI input to be Hairless output.    
 Upload and launch server.ino onto the Adafruit Feather.  
 Connect laptop to wifi server "idd".      
 Run python script parser.py to begin.  
