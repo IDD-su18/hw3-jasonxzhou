@@ -30,10 +30,13 @@ The microcontroller used is the Adafruit Feather M0. The sensors used are the Ad
 
 ## III. Misc. Documentation
 
-### A. Setting up & Launching 
-Upload and launch server.ino onto the feather.  
+### A. Installation & Set-up Instructions
+Install: Ableton (or DAW of your choice), Serum (or synth of your choice), Hairless <-> MIDI bridge, Eltima, and loopMIDI.  
+Open your DAW; select your synth inside the DAW.  
+Launch Eltima, add two virtual serial ports (COM1, COM2). 
 Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
-Launch loopMIDI, Ableton, and Serum.  
+Launch loopMIDI, set loopMIDI input to be Hairless output.   
+Upload and launch server.ino onto the Adafruit Feather.  
 Connect laptop to wifi server "idd".      
 Run python script parser.py to begin.  
 
