@@ -25,23 +25,22 @@ However, this "appending" method breaks when there are leading zeroes in any of 
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/zeropad.png)
 
 ## II. Physical & Mechanical Implementation
-Materials:
+Fabrication Materials:
 - 7 3D printed parts
 - 48 cumulative hours of printing
 - 16 self-tapping screws
 
-Objectives:
+Encasing Design Objectives:
 - Wearable / portable functionality
 - Ergonomic & Small
 - Easy to assemble / disassemble
 - Good looking
-In order to meet these objectives, the focus was on using screws and snap-fits for securing all
-electronics, and all components together.
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag001.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag008.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag015.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag017.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/imag019.jpg)
+In order to meet these objectives, the focus was on using screws and snap-fits for securing all electronics, and all components together.  
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image001.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image008.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image015.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image017.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image019.jpg)
 
 ## III. Misc. Documentation
 
