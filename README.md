@@ -38,9 +38,12 @@ Encasing Design Objectives:
 In order to meet these objectives, the focus was on using screws and snap-fits for securing all electronics, and all components together.  
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image001.jpg)
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image008.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image015.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image017.jpg)
-![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image019.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image003.jpg)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image015.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image017.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image019.png)
+![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image033.jpg)
+
 
 ## III. Misc. Documentation
 
