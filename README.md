@@ -52,6 +52,7 @@ Below are some pictures from the brainstorming, prototyping, and fabrication pro
 
 
 ## III. Misc. Documentation
+For whoever would like to recreate our project.
 
 ### A. Installation & Set-up Instructions
 Install: Ableton (or DAW of your choice), Serum (or synth of your choice), Hairless <-> MIDI bridge, Eltima, and loopMIDI.  
