@@ -1,9 +1,9 @@
 # hw3-jasonxzhou
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
 #
-**Physical & Mechanical Design:** Theo Fedronic  
-**Electronic & Software Design:** Jason Zhou   
-**Demo Video**: https://youtu.be/ytvsIRv0k3Y
+**Physical & Mechanical Design: Theo Fedronic  
+Electronic & Software Design: Jason Zhou   
+Demo Video**: https://youtu.be/ytvsIRv0k3Y
 
 ## I. Electronic & Software Implementation	
 ### A. Circuit Overview
@@ -58,7 +58,7 @@ Install: Ableton (or DAW of your choice), Serum (or synth of your choice), Hairl
 Open your DAW; select your synth inside the DAW.  
 Launch Eltima, add two virtual serial ports (COM1, COM2).  
 Launch Hairless <-> MIDI bridge, set serial port to "COM1 -> COM2".  
-Launch loopMIDI, set loopMIDI input to be Hairless output.    
+Launch loopMIDI, set loopMIDI input port to be Hairless output.    
 Upload and launch server.ino onto the Adafruit Feather.  
 Connect laptop to wifi server "idd".      
 Run python script parser.py to begin.  
