@@ -1,9 +1,9 @@
-# hw3-jasonxzhou
+# Wireless Motion-Based MIDI Controller
 ![alt text](https://github.com/IDD-su18/hw3-jasonxzhou/blob/master/misc/image037.jpg)
 #
-**Physical & Mechanical Design: Theo Fedronic  
-Electronic & Software Design: Jason Zhou   
-Demo Video**: https://youtu.be/ytvsIRv0k3Y
+**Physical & Mechanical Design:** Theo Fedronic  
+**Electronic & Software Design:** Jason Zhou   
+**Demo Video**: https://youtu.be/ytvsIRv0k3Y
 
 ## I. Electronic & Software Implementation	
 ### A. Circuit Overview
